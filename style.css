@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 60ch;
+  margin: 2rem auto;
+}
+
+#luxy {
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.5;
+}
+
+li {
+  margin-bottom: 1.5rem;
+}
+
+strong {
+  font-weight: 900;
+}
+
+.backButton {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
