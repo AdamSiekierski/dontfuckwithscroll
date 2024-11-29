@@ -1,15 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: sans-serif;
 }
 
 body {
   max-width: 60ch;
-  margin: 2rem auto;
+  margin: 0 auto;
+  background: white;
 }
 
-#luxy {
-  max-width: 60ch;
+.wrapper {
+  width: 100%;
   margin: 0 auto;
+  max-width: 60ch;
+  padding: 2rem 1rem;
 }
 
 h1, h2 {
@@ -28,8 +35,17 @@ strong {
   font-weight: 900;
 }
 
-.backButton {
+.toggleEffect {
   position: fixed;
   top: 1rem;
   left: 1rem;
+  z-index: 1000;
+  background: white;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#nonLuxy {
+  display: none;
 }
